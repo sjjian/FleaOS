@@ -8,10 +8,10 @@
     " | |    | |  __/ (_| | | |__| |____) |\n"       \
     " |_|    |_|\\___|\\__,_|  \\____/|_____/ \n"    \
 
-int os_main(void)
-{
+
+int os_main(void) {
     print("\nFlea OS\n");
     print(BANNER);
-	while (1) {}
-	return 0;
+    while (1) {}
+    return 0;
 }
